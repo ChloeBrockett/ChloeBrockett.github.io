@@ -2,4 +2,11 @@
 
 .App {
   text-align: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0
 }
