@@ -1,13 +1,8 @@
 import React from 'react';
-import styled from "styled-components";
-import { useState,useEffect  } from 'react';
+import { useState} from 'react';
 import './styles/home.css';
 import {IonIcon} from '@ionic/react';
 import {logoFacebook,mailOutline,logoGithub} from 'ionicons/icons';
-
-const Tab=styled.button`
-    $
-`
 
 //template {title:"",buttonText:"",text:""}
 const projects = [
