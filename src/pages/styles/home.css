@@ -9,7 +9,6 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    
 }
 
 .main-container-inner{
@@ -29,6 +28,9 @@
   flex: 5 0 50%;
 }
 
+.content{
+    height: 500px;
+}
 .social-links,
 .menu {
   flex: 1 0 300px;
@@ -36,6 +38,7 @@
 .social-links-inner{
     display: flex;
     justify-content: center;
+    
 }
 .social-icon{
     font-size: 4rem;
