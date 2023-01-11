@@ -29,8 +29,10 @@
 }
 
 .content{
+    text-align: left;
     grid-area: article;
 }
+
 
 .social-links{
     grid-area: socials;
@@ -52,8 +54,7 @@
     opacity:.6;
     border-bottom: 2px solid transparent;
     transition: ease border-bottom 250ms;
-    
-    
+       
 }
 
 .menu button.active{
