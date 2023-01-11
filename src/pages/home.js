@@ -21,19 +21,19 @@ const projects = [
         {
             title:"Python Minimax",
             buttonText:"Python Minimax",
-            text:    <Fragment>
-                        Technologies: Python, GitHub<br/>
-                        This was a short project to demonstrate my ability to accurately implement algorithms, competency with python, as well as how 
-                        I approach creating readable code. It is a command line app where a human player can attempt to beat the computer
-                        at noughts and crosses. <br/><br/>
-                        Because the game is solved, a perfect player will always force atleast a draw, which this app achieves via the 
-                        recursive tree search algorithm 'minimax'. The algorithm alternates between selecting the move that <strong>maximises</strong> the current
-                        players chances of victory, then the move which <strong>minimises</strong> their odds (ie: the opponents best move). It heuristically analyses
-                        game states and chooses the first best option. In future I will refactor the project to use OOP, optimise with alpha beta pruning, and
-                        add an element of randomness for more interesting gamelay<br/>
-                        <a href="https://github.com/ChloeBrockett/python-cl-naughtscrosses"><button>View Project</button></a>
-                        <a href="https://github.com/ChloeBrockett/python-cl-naughtscrosses/releases"><button>Download Executable</button></a>
-                    </Fragment>
+            text:<Fragment>
+                    Technologies: Python, GitHub<br/>
+                    This was a short project to demonstrate my ability to accurately implement algorithms, competency with python, as well as how 
+                    I approach creating readable code. It is a command line app where a human player can attempt to beat the computer
+                    at noughts and crosses. <br/><br/>
+                    Because the game is solved, a perfect player will always force atleast a draw, which this app achieves via the 
+                    recursive tree search algorithm 'minimax'. The algorithm alternates between selecting the move that <strong>maximises</strong> the current
+                    players chances of victory, then the move which <strong>minimises</strong> their odds (ie: the opponents best move). It heuristically analyses
+                    game states and chooses the first best option. In future I will refactor the project to use OOP, optimise with alpha beta pruning, and
+                    add an element of randomness for more interesting gamelay<br/>
+                    <a href="https://github.com/ChloeBrockett/python-cl-naughtscrosses"><button>View Project</button></a>
+                    <a href="https://github.com/ChloeBrockett/python-cl-naughtscrosses/releases"><button>Download Executable</button></a>
+                </Fragment>
         }
     ]
 
@@ -52,17 +52,23 @@ function Home (){
                 </div>
             
                 <div class='social-links'>
-                    <div class='social-links-inner'>
+                    
+                    <div class='social-link-wrapper'>
                         <a  href='https://github.com/ChloeBrockett'>
                             <IonIcon class='social-icon' icon={logoGithub}/>
                         </a>
+                    </div>
+                    <div class='social-link-wrapper'>
                         <a  href='mailto:chloe@brockett.id.au'>
                             <IonIcon class='social-icon' icon={mailOutline}/>
                         </a>
+                    </div>
+                    <div class = 'social-link-wrapper'>
                         <a  href='https://www.facebook.com/DominaAlgentem'>
                             <IonIcon  class='social-icon' icon={logoFacebook}/>
                         </a>
                     </div>
+
                 </div>
                 
                 <div class='content'>
@@ -70,6 +76,7 @@ function Home (){
                         {contentText}
                     </p>
                 </div>
+                
                 <div class='menu'>
                     {projects.map((project) => (
                         <button
