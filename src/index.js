@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-console.log ("Hi you should hire me :)")
+console.log ("Hi look no warnings or errors you should totally hire me :)")
 root.render(
   <React.StrictMode>
     <App />
