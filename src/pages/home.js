@@ -23,7 +23,7 @@ const projects = [
                     My decade of hospitality experience has given me very strong organisation, time management, and teamwork skills. During the chaos of a rush, my 
                     ability to clearly communicate with colleagues and analyse task prioritisation was key to maintaining efficent workflow. <br /><br />
                     
-                    ou can see an album of my WIP car repair/restore <a 
+                    You can see an album of my WIP car repair/restore <a 
                     href="https://imgur.com/gallery/8hkR8vm" rel="noreferrer" target="_blank"
                     >
                         here
