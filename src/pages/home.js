@@ -4,7 +4,7 @@ import './styles/home.css';
 import {IonIcon} from '@ionic/react';
 import {logoFacebook,mailOutline,logoGithub} from 'ionicons/icons';
 
-//template {title:"",buttonText:"",text:""}
+//template {title:"",buttonText:"",text:<Fragment></Fragment>}
 const projects = [
         {title:"Chloe Brockett",
             buttonText:"About Me",
@@ -35,6 +35,26 @@ const projects = [
                     <a href="https://github.com/ChloeBrockett/python-cl-naughtscrosses" rel="noreferrer" target="_blank" ><button>View Project</button></a>
                     <a href="https://github.com/ChloeBrockett/python-cl-naughtscrosses/releases"rel="noreferrer" target="_blank"><button>Download Executable</button></a>
                 </Fragment>
+        },
+        {
+            title:"Portfolio",
+            buttonText:"Portfolio",
+            text:<Fragment>
+                Technologies: React, HTML, CSS, Github<br />React Packages: Ionicons, ghpages<br /><br />
+                This project is the portfolio site you are using. I used the project as a chance to refresh myself on React, one of my favourite libraries.
+                My past experience building websites was through my studies, where design and even HTML/CSS themselves are only a minor 
+                part of the overall assessment. I wanted to challenge myself to come up with my own design, using the opportunity to gain a
+                deeper understanding of CSS in particular. For this reason, I avoided using react packages, and chose to style the page from scratch, with the sole
+                exception of ionicons, a package that allows icons to be used inline with text and styled with similar css. I am not a designer; but designers will
+                be a core part of any future team, and a goal of the project was to demonstrate my appreciation and ability to work alongside to deliver SOMETHING SOMETHING END PRODUCT
+                <br /><br />
+                My major design goal was to have an effective pedestal for my work It needs to reflects my personality, it needs to be bold and memorable while still 
+                retaining simplicity as to not be a distraction. I found many junior developer websites showcased as work-ready examplars to be rather plain and samey,
+                many were greys on whites. Most also used common libraries like bootstrap or material, and while these do have their place, I wanted to stand apart. 
+                I've often seen it discussed how the use of these tools obfuscates understanding of underlying technologies. This was another reason I avoided their use - 
+                a goal of the project is to demonstrate my love of challenging myself to learn and develop deeper understanding. 
+                <a href="https://github.com/ChloeBrockett/python-cl-naughtscrosses" rel="noreferrer" target="_blank" ><button>View Project</button></a>
+            </Fragment>
         }
     ]
 
